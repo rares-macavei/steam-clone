@@ -15,7 +15,11 @@ const Navbar = () => {
             <VscListFlat className="text-[30px]" />
           </div>
           <div className="">
-            <img src={SteamLogo} alt="" className="h-12 hover:cursor-pointer" />
+            <img
+              src={SteamLogo}
+              alt=""
+              className="pl-20 sm:pl-0 h-12 hover:cursor-pointer"
+            />
           </div>
         </div>
         {/* Middle */}

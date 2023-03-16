@@ -8,13 +8,13 @@ const Footer = () => {
     <div className="h-[183px] w-full bg-[#171a21]">
       <div className="flex justify-center pt-14">
         <div className="flex">
-          <img src={Valve} alt="" className="h-8 pr-4" />
+          <img src={Valve} alt="" className="h-4 sm:h-8 pr-4" />
           <div className="flex flex-col">
-            <p className="text-[#8F98A0] text-[11px]">
+            <p className="text-[#8F98A0] text-[9px] sm:text-[11px]">
               © 2023 Valve Corporation. All rights reserved. All trademarks are
               property of their respective owners in the US and other countries.
             </p>
-            <p className="text-[#8F98A0] text-[11px]">
+            <p className="text-[#8F98A0] text-[9px] sm:text-[11px]">
               VAT included in all prices where applicable.{" "}
               <a href="a" className="text-[#C6D4DF] hover:text-white">
                 Privacy Policy
@@ -37,11 +37,11 @@ const Footer = () => {
               </a>
             </p>
           </div>
-          <img src={Steam} alt="" className="h-8 pl-4" />
+          <img src={Steam} alt="" className="h-4 sm:h-8 pl-4" />
         </div>
       </div>
 
-      <div className="flex justify-center text-[12px] gap-2 pt-1">
+      <div className="flex justify-center text-[9px] sm:text-[12px] gap-2 pt-1">
         <a href="a" className="text-[#C6D4DF] hover:text-white">
           About Valve
         </a>
